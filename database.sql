@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS history(
+  user_id INT NOT NULL,
+  action VARCHAR(255)
+)
